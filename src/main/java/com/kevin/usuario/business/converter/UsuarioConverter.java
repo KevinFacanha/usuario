@@ -52,7 +52,7 @@ public class UsuarioConverter {
     }
 
     public UsuarioDTO paraUsuarioDTO(Usuario usuarioDTO){
-        return Usuario.builder()
+        return UsuarioDTO.builder()
                 .nome(usuarioDTO.getNome())
                 .email(usuarioDTO.getEmail())
                 .senha(usuarioDTO.getSenha())
